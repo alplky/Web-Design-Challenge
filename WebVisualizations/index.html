@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Latitude vs. Weather</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+        <link rel="stylesheet" type="text/css" href="static/style.css">
     </head>
     <body>
       <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
-        <a class="navbar-brand" href="{{ url_for('index') }}">Latitude</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,17 +20,17 @@
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="{{ url_for('temperature') }}">Max Temperature</a>
-                <a class="dropdown-item" href="{{ url_for('humidity') }}">Humidity</a>
-                <a class="dropdown-item" href="{{ url_for('cloudiness') }}">Cloudiness</a>
-                <a class="dropdown-item" href="{{ url_for('windspeed') }}">Wind Speed</a>
+                <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('comparisons') }}">Comparison</a>
+              <a class="nav-link" href="comparisons.html">Comparison</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('data') }}">Data</a>
+              <a class="nav-link" href="data.html">Data</a>
             </li>
           </ul>
         </div>
@@ -38,6 +38,5 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    {% block content %}{% endblock %}
     </body>
 </html>
