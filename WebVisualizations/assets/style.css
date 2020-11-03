@@ -1,3 +1,11 @@
+.navbar-custom { 
+    background-color: rgb(4, 110, 110) !important; 
+}
+
+.h1 {
+    color: rgb(72, 45, 134); 
+}
+
 body { 
     padding-top: 65px; 
 }
