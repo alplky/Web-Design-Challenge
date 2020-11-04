@@ -2,16 +2,24 @@
     background-color: rgb(4, 110, 110) !important; 
 }
 
+.col-md-8,.col-sm-12 {
+    background-color: whitesmoke;
+}
+
+.col-md-4,.col-sm-12 {
+    background-color: whitesmoke;
+}
+
 .h1 {
     color: rgb(72, 45, 134); 
 }
 
 body { 
-    padding-top: 65px; 
+    padding-top: 130px; 
 }
 
 /* box for landing page */
-div.box{ 
+/* div.box{ 
     height: 420px; 
     width: 820px; 
     background: #e1e3ec; 
@@ -19,17 +27,17 @@ div.box{
   } 
 
   /* box for visualization pages */
-  div.box2{ 
+  /* div.box2{ 
     height: 820px; 
     width: 820px; 
     background: #e1e3ec; 
     margin: 20px; 
-  } 
+  }  */
 
 /* box for visualizations on landing page */
-  div.box3{ 
+  /* div.box3{ 
     height: 340px; 
     width: 320px; 
     background: #e1e3ec; 
     margin: 20px; 
-  } 
+  }   */
