@@ -3,11 +3,11 @@
 }
 
 .col-md-8,.col-sm-12 {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .col-md-4,.col-sm-12 {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .h1 {
@@ -19,7 +19,8 @@
 }
 
 body { 
-    padding-top: 130px; 
+    padding-top: 130px;
+    background-color: whitesmoke;
 }
 
 .h3 {
@@ -27,6 +28,18 @@ body {
     text-align: center;
 }
 
+#compbox {
+  background-color: white;
+}
+
+.box {
+  float: right;
+  height: 300px;
+  width: 375px;
+  margin-bottom: 15px;
+  clear: both;
+  background-color: white;
+}
 /* box for landing page */
 /* div.box{ 
     height: 420px; 
