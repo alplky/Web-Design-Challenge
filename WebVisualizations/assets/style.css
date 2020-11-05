@@ -37,29 +37,10 @@ body {
   height: 300px;
   width: 375px;
   margin-bottom: 15px;
-  clear: both;
   background-color: white;
 }
-/* box for landing page */
-/* div.box{ 
-    height: 420px; 
-    width: 820px; 
-    background: #e1e3ec; 
-    margin: 20px; 
-  } 
 
-  /* box for visualization pages */
-  /* div.box2{ 
-    height: 820px; 
-    width: 820px; 
-    background: #e1e3ec; 
-    margin: 20px; 
-  }  */
-
-/* box for visualizations on landing page */
-  /* div.box3{ 
-    height: 340px; 
-    width: 320px; 
-    background: #e1e3ec; 
-    margin: 20px; 
-  }   */
+.thumbnail:hover {
+  border: solid 5px rgb(4, 110, 110);
+  margin: -5px; 
+}
