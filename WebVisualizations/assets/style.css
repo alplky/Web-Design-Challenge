@@ -44,3 +44,10 @@ body {
   border: solid 5px rgb(4, 110, 110);
   margin: -5px; 
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 900px) {
+    body{
+    background-color: #FFFFFF;
+    }
+}
