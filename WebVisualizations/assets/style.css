@@ -22,6 +22,11 @@ body {
     padding-top: 130px; 
 }
 
+.h3 {
+    color: rgb(4, 110, 110); 
+    text-align: center;
+}
+
 /* box for landing page */
 /* div.box{ 
     height: 420px; 
