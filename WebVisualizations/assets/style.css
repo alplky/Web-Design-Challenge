@@ -1,42 +1,52 @@
+/* navbar color */
 .navbar-custom { 
     background-color: rgb(4, 110, 110) !important; 
 }
 
+/* background color for main container */
 .col-md-8,.col-sm-12 {
     background-color: white;
 }
 
+/* background color for vizualizations container */
 .col-md-4,.col-sm-12 {
     background-color: white;
 }
 
+/* font color for titles in each page */
 .h1 {
     color: rgb(4, 110, 110); 
 }
 
+/* font folor for visualzation title on each page */
 .h2 {
     color: rgb(4, 110, 110); 
 }
 
+/* background color to differ from containers */
 body { 
     padding-top: 130px;
     background-color: whitesmoke;
 }
 
+/* title font color and alignment for comparison page */
 .h3 {
     color: rgb(4, 110, 110); 
     text-align: center;
 }
 
+/* container color for comparisons page */
 #compbox {
   background-color: white;
 }
 
+/* sizing and position for visualization pages */
 .box {
   float: right;
   height: 300px;
   width: 375px;
   margin-bottom: 15px;
+  margin-left: 50px;
   background-color: white;
 }
 
