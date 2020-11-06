@@ -3,7 +3,32 @@
     background-color: rgb(4, 110, 110) !important; 
 }
 
-/* background color for main container */
+/* navbar-brand text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+/* text color change for active links when hovered over*/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+/* drop down text formatting */
+.navbar-custom .dropdown-item {
+    color: black;
+}
+
+/* drop down highlight formatting when hovered over */
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgb(186, 197, 197);
+}
+
+/* background color for main container on landing page*/
 .col-md-8,.col-sm-12 {
     background-color: white;
 }
@@ -29,7 +54,7 @@ body {
     background-color: whitesmoke;
 }
 
-/* title font color and alignment for comparison page */
+/* title font color and alignment for comparison page visualizations */
 .h3 {
     color: rgb(4, 110, 110); 
     text-align: center;
@@ -40,7 +65,7 @@ body {
   background-color: white;
 }
 
-/* sizing and position for visualization pages */
+/* sizing and position for visualization box */
 .box {
   float: right;
   height: 300px;
@@ -50,13 +75,13 @@ body {
   background-color: white;
 }
 
-/* highly images when hovered over */
+/* highlights border of images when hovered over */
 .thumbnail:hover {
   border: solid 5px rgb(4, 110, 110);
   margin: -5px; 
 }
 
-/* Background color change for screen width */
+/* Background color changes depending on screen width */
 @media screen and (max-width: 900px) {
     body{
         background-color: #FFFFFF;
