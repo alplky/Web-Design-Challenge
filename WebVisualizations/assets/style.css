@@ -50,14 +50,15 @@ body {
   background-color: white;
 }
 
+/* highly images when hovered over */
 .thumbnail:hover {
   border: solid 5px rgb(4, 110, 110);
   margin: -5px; 
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Background color change for screen width */
 @media screen and (max-width: 900px) {
     body{
-    background-color: #FFFFFF;
+        background-color: #FFFFFF;
     }
 }
