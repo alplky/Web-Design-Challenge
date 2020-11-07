@@ -1,4 +1,7 @@
 # Web-Design-Challenge
+
+Deployed link: https://alplky.github.io/Web-Design-Challenge/index.html
+
 ## Background
 In order to share what we've learned through previous data analysis, the best way to get it out into the world is through a visualization dashboard. The vizualizations were first created when weather data was analyzed using API calls from OpenWeatherMaps. The dashboard has a landing page, individual pages for each plot, a data page, and a comparison page to view all 4 plots at once. Each page has a navigation bar in order to navigate between all 7 pages.  
 
