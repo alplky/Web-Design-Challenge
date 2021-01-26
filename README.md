@@ -3,7 +3,7 @@
 Deployed link: https://alplky.github.io/Web-Design-Challenge/index.html
 
 ## Background
-In order to share what we've learned through previous data analysis, the best way to get it out into the world is through a visualization dashboard. The vizualizations were first created when weather data was analyzed using API calls from OpenWeatherMaps. The dashboard has a landing page, individual pages for each plot, a data page, and a comparison page to view all 4 plots at once. Each page has a navigation bar in order to navigate between all 7 pages.  
+In order to share what we've learned through previous data analysis, the best way to get it out into the world is through a visualization dashboard. The visualizations were first created when weather data was analyzed using API calls from OpenWeatherMaps. The dashboard has a landing page, individual pages for each plot, a data page, and a comparison page to view all 4 plots at once. Each page has a navigation bar in order to navigate between all 7 pages.  
 
 ## Technologies Used
 - HTML
@@ -23,10 +23,10 @@ In order to share what we've learned through previous data analysis, the best wa
 3. Use CSS to style different aspects of the pages.
 
 ### Navigation Menu:
-Each page has an identical responsive navigation bar that formats to larger and smaller screens depending on screen with. Each link label in the menu and drop down will take a user to the corresponding page. When collapsed, the navigation bar and drop down menu continue to work as normal. 
+Each page has an identical responsive navigation bar that formats to larger and smaller screens depending on screen width. Each link label in the menu and drop down will take a user to the corresponding page. When collapsed, the navigation bar and drop-down menu continue to work as normal. 
 
 ### Landing Page
-The landing page describes the project in depth and includes a sidebar of images that link to each plot's page. 
+The landing page describes the project in-depth and includes a sidebar of images that link to each plot's page. 
 
 ![Landing_Page](Images/landing.png) 
 ![Sm_Landing_Page](Images/landing_sm.png)
